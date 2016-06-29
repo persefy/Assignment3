@@ -110,8 +110,8 @@ var employees = [employee1, employee2];
 window.console.log(employees[1]["name"]);
 */
 
-    //14 Using the above code, modify the code slightly so that you’re using a loop to loop through the array and printing out the names of both employees.
-var employee1 = [];
+    //14 Print out name of both employees using loop
+/*var employee1 = [];
 employee1["employeeid"] = 1234;
 employee1["name"] = "Amy Baker";
 employee1["title"] = "Manager";
@@ -123,12 +123,58 @@ employee2["employeeid"] = 1235;
 employee2["name"] = "Jonathan Grey";
 employee2["title"] = "Administrative Assistant";
 employee2["department"] = "Front End Service";
-employee2["employeeNow"] = false;
+employee2["employeeNow"] = true;
 
 var employees = [employee1, employee2];
-
 for (var x in employees) {
-    
-}
+    window.console.log(employees[x]["name"]);
+}*/
+
+    //15  Add another array to employees, and set its employeeNow to false; Make loop and display employeeNow with true value only
+
+/*var employee1 = [];
+employee1["employeeid"] = 1234;
+employee1["name"] = "Amy Baker";
+employee1["title"] = "Manager";
+employee1["department"] = "IT";
+employee1["employeeNow"] = true;
+
+var employee2 = [];
+employee2["employeeid"] = 1235;
+employee2["name"] = "Jonathan Grey";
+employee2["title"] = "Administrative Assistant";
+employee2["department"] = "Front End Service";
+employee2["employeeNow"] = true;
+
+var employee3 = [];
+employee3["employeeid"] = 1236;
+employee3["name"] = "Jade Alder";
+employee3["title"] = "Secretary";
+employee3["department"] = "Human Resources";
+employee3["employeeNow"] = false;
+
+var employees = [employee1, employee2, employee3];
+var x = 0;
+do {
+    window.console.log(employees[x]["name"]);
+    x++;
+} while (employees[x]["employeeNow"] == true);*/
+
+    //16 Create a multi-dimensional array that contains your 5 favorite movies and their ranking from 1-5. The array should look something like this: 
+/*
+movies = [["Movie 1", 1], ["Movie 2", 2], ["Movie 3", 3], ["Movie 4", 4], ["Movie 5", 5]];
+Now, loop through the array and filter out and display only the movie names. You must use the filter() method and you’ll need to filter out the names by their primitive data type.
+*/
+var movies = [["The Best of Me", 1], ["Peter Pan", 2], ["The Great Gatsby", 3], ["Ella Enchanted", 4], ["Finding Nemo", 5]];
+
+movies.filter(typeof == "string");
+
+
+
+
+
+
+
+
 
 
